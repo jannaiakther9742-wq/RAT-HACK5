@@ -12,7 +12,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_video(
         chat_id=chat_id,
         video=video_url,
-        caption="Welcome to the bot 🥵💋"
+        caption="Welcome to the bot 🥵"
     )
 
 async def main():
